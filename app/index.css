@@ -58,9 +58,8 @@ body{
     padding: 0.2rem;
     
 }
-
 .text{
-    width: 12rem;
+    width: 10rem;
     word-wrap: break-word;
     overflow: auto;
     display: flex;
@@ -198,8 +197,11 @@ body{
         display: flex;
     }
     #main-container{
-        width: 70%;
+        width: 70%; 
         margin: 0 auto;
+    }
+    .text{
+        width: 23rem;
     }
 }
 @media (min-width:1024px) {
@@ -209,6 +211,9 @@ body{
     .task:hover{
         transform: translateY(-2px);
         }    
+    .text{
+        width: 25rem;
+    }
 }
 @media (min-width:1440px) {
     #main-container{
